@@ -1,16 +1,36 @@
 .profile {
+  position: relative;
   width: 300px;
   text-align: center;
   padding: 1rem;
   background-color: #ebebeb;
   border-radius: 20px;
-  box-shadow: 10px 10px 5px 0px rgba(79, 230, 194, 0.75);
-  -webkit-box-shadow: 10px 10px 5px 0px rgba(79, 230, 194, 0.75);
-  -moz-box-shadow: 10px 10px 5px 0px rgba(79, 230, 194, 0.75);
+  margin-bottom: 20px;
+  box-shadow: 10px 10px 5px 0px rgba(152, 214, 199, 0.75);
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(160, 220, 206, 0.75);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(159, 226, 211, 0.75);
 }
 
 .photo {
   width: 200px;
   height: 200px;
   border-radius: 100%;
+}
+
+.avatar {
+  width: 200px;
+  height: 200px;
+  position: relative;
+  margin: auto;
+}
+
+.new {
+  position: absolute;
+  top: 10%;
+  left: 70%;
+
+  background-color: aquamarine;
+  padding: 5px;
+  border-radius: 8px;
+  text-transform: uppercase;
 }
